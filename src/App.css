@@ -24,6 +24,11 @@ ul li {
   margin: 1.5% 0;
   background-color: #4e4e4e96;
   border-radius: 7px;
+  transition: 0.3s;
+}
+
+ul li:hover {
+  background-color: #585858d0;
 }
 
 ul li p {
