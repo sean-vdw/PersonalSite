@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     './src/App.js',
-    './src/components/TwHeaderTest.js',
+    './src/components/Hero.js',
   ],
   theme: {
     extend: {},
