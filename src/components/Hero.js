@@ -15,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='hero-background mb-48'>
+    <div className='hero-background pb-48'>
       <header>
         <nav>
         </nav>

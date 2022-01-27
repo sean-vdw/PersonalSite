@@ -1,5 +1,9 @@
-body {
+h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
+}
+
+p, span {
+  font-family: 'Merriweather', serif;
 }
 
 .hero-background {
@@ -32,7 +36,6 @@ ul li:hover {
 }
 
 ul li p {
-  font-family: 'Merriweather', serif;
   font-weight: 300;
   color: #D7DDE8;
   margin-bottom: 0;
