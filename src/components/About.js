@@ -43,6 +43,12 @@ export default function About() {
                 in a scalable way. His goal is to continuously build on these valuable skills alongside smart and ambitious people that want to meaningfully
                 improve people's day-to-day lives.
               </p>
+              {/* <div className="mt-10">
+                <a href="#" className="text-base font-medium text-teal-600">
+                  {' '}
+                  What it's like to work with Sean <span aria-hidden="true">&rarr;</span>{' '}
+                </a>
+              </div> */}
             </div>
           </div>
         </div>
