@@ -39,7 +39,7 @@ export default function About() {
                 a technology-focused investment platform with his two partners, Sagar Joshi and Jugal Lodaya. 
               </p>
               <p className="text-base leading-7">
-                Over the last few years, Sean has been hyperfocused on building and improving his programming skills in order to solve real-world problems
+                Over the last few years, Sean has been focused on building and improving his programming skills in order to solve real-world problems
                 in a scalable way. His goal is to continuously build on these valuable skills alongside smart and ambitious people that want to meaningfully
                 improve people's day-to-day lives.
               </p>
