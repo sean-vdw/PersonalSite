@@ -1,6 +1,33 @@
+import { useEffect } from 'react';
 import picture from '../assets/profile.jpg';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export default function About() {
+  gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() => {
+    gsap.from('#aboutImg', {
+      scrollTrigger: {
+        trigger: '#aboutImg',
+        start: 'top center'
+      },
+      x: -50,
+      duration: 0.5,
+      opacity: 0
+    });
+
+    gsap.from('#aboutContent', {
+      scrollTrigger: {
+        trigger: '#aboutContent',
+        start: 'top center'
+      },
+      x: 50,
+      duration: 0.5,
+      opacity: 0
+    });
+  }, []);
+
   return (
     <div className="relative bg-zinc-900 py-16 sm:py-24">
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
@@ -12,6 +39,7 @@ export default function About() {
             {/* Testimonial card*/}
             <div className="relative py-36 md:pt-64 md:pb-40 rounded-2xl shadow-xl overflow-hidden">
               <img
+                id='aboutImg'
                 className="absolute inset-0 h-full w-full object-cover"
                 src={picture}
                 alt="Profile picture"
@@ -22,7 +50,7 @@ export default function About() {
 
         <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
           {/* Content area */}
-          <div className="pt-12 sm:pt-16 lg:pt-20">
+          <div id='aboutContent' className="pt-12 sm:pt-16 lg:pt-20">
             <h2 className="text-3xl pb-4 text-white font-extrabold tracking-tight sm:text-4xl border-b-8 border-teal-700">
               About Sean
             </h2>

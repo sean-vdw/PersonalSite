@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 
 const Hero = () => {
-
-  const tl = gsap.timeline({defaults:{duration: 0.5, opacity: 0}})
+  const tl = gsap.timeline({defaults:{duration: 0.5, opacity: 0}});
 
   // GSAP Animation for hero elements
   useEffect(() => {
