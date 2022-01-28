@@ -29,6 +29,12 @@ export default function Skills() {
             <p className="text-lg mb-0 text-zinc-500">Bootstrap</p>
           </div>
           <div className="text-center col-span-1 flex-col justify-center align-middle py-3 px-8 bg-zinc-700 hover:bg-teal-100 ease-in-out duration-200 hover:-translate-y-3">
+            <svg className='max-h-14 m-auto mt-1' preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 153.6">
+              <path d="M128 0C93.867 0 72.533 17.067 64 51.2 76.8 34.133 91.733 27.733 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.8c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0zM64 76.8C29.867 76.8 8.533 93.867 0 128c12.8-17.067 27.733-23.467 44.8-19.2 9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8z" fill="#71717a"/>
+            </svg>
+            <p className="text-lg mb-0 mt-3 text-zinc-500">Tailwind</p>
+          </div>
+          <div className="text-center col-span-1 flex-col justify-center align-middle py-3 px-8 bg-zinc-700 hover:bg-teal-100 ease-in-out duration-200 hover:-translate-y-3">
             <i className="fab fa-react fa-5x text-zinc-500"></i>
             <p className="text-lg mb-0 text-zinc-500">React</p>
           </div>
