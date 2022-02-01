@@ -9,8 +9,7 @@ export default function About() {
   useEffect(() => {
     gsap.from('#aboutImg', {
       scrollTrigger: {
-        trigger: '#aboutImg',
-        start: 'top center'
+        trigger: '#aboutImg'
       },
       x: -50,
       duration: 0.5,
@@ -19,8 +18,7 @@ export default function About() {
 
     gsap.from('#aboutContent', {
       scrollTrigger: {
-        trigger: '#aboutContent',
-        start: 'top center'
+        trigger: '#aboutContent'
       },
       x: 50,
       duration: 0.5,
