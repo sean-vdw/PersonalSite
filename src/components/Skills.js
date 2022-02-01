@@ -1,5 +1,3 @@
-import reduxLogo from '../assets/redux.svg';
-
 export default function Skills() {
   return (
     <div className="bg-zinc-800">

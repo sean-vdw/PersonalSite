@@ -4,6 +4,7 @@ module.exports = {
     './src/components/Hero.js',
     './src/components/About.js',
     './src/components/Skills.js',
+    './src/components/Projects.js',
     './src/components/Footer.js'
   ],
   theme: {
