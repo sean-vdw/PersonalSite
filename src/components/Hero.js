@@ -30,15 +30,10 @@ const Hero = () => {
           <ul id="rect3" className='w-full md:w-1/2 m-0 p-0 d-flex flex-col justify-center align-middle'>
             <li>
               <p>Software Engineer</p>
-              <a href="https://github.com/sean-vdw" target="_blank"><i class="fab fa-github"></i></a>
-            </li>
-            <li>
-              <p>Builder</p>
-              <a href="https://www.linkedin.com/in/seanvanderwal/" target="_blank"><i class="fab fa-linkedin"></i></a>
-              </li>
-            <li>
-              <p>Investor</p>
-              <a href="https://angel.co/u/sean-van-der-wal-1" target="_blank"><i class="fab fa-angellist"></i></a> 
+              <div className="flex">
+                <a href="https://github.com/sean-vdw" target="_blank" className="mx-1"><i className="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/seanvanderwal/" target="_blank" className="mx-1"><i className="fab fa-linkedin"></i></a>
+              </div>
             </li>
           </ul>
         </div>

@@ -16,7 +16,7 @@ const navigation = [
   },
   {
     name: 'Email',
-    href: 'mailto:sean.vanderwal2@gmail.com',
+    href: 'mailto:sean@vanderwal.dev',
     icon: 'fas fa-envelope fa-lg'
   },
 ]
