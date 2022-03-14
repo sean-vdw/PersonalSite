@@ -65,7 +65,7 @@ export default function Projects() {
           return (
             <div className="relative w-full mt-12 lg:mt-12 flex-col justify-center align-middle">
               <img
-                className="rounded-xl w-full md:w-10/12 object-cover"
+                className="rounded-xl w-full md:w-10/12 object-cover md:-skew-y-6"
                 src={project.image}
                 alt={`${project.name} Teaser`}
               />
