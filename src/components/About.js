@@ -62,17 +62,17 @@ export default function About() {
                 After working with several entrepreneurs, technology executives, and venture capitalists in the Menlo Park area, Sean had 
                 officially caught the Silicon Valley bug and started learning to code. He quickly found a deep fulfillment in building applications and platforms
                 that were both valuable and enjoyable for users. In 2020, just after the onset of the COVID-19 pandemic, Sean co-founded Drawing Capital Group,
-                a technology-focused investment platform with his two partners, Sagar Joshi and Jugal Lodaya. 
+                a technology-enabled investment platform. 
               </p>
               <p className="text-base leading-7">
-                Over the last few years, Sean has been focused on building and improving his programming skills in order to solve real-world problems
+                Over the last few years, Sean has been focused on growing his programming skills in order to solve real-world problems
                 in a scalable way. His goal is to continuously build on these valuable skills alongside smart and ambitious people that want to meaningfully
                 improve people's day-to-day lives.
               </p>
               {/* <div className="mt-10">
                 <a href="#" className="text-base font-medium text-teal-600">
                   {' '}
-                  What it's like to work with Sean <span aria-hidden="true">&rarr;</span>{' '}
+                  Sean's Values & Tenets <span aria-hidden="true">&rarr;</span>{' '}
                 </a>
               </div> */}
             </div>
